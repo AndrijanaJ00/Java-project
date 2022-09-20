@@ -1,0 +1,181 @@
+/*Login*/
+#vbox, #bpRadnik, #bpTretman {
+    -fx-background-color: #ff66a3;
+}
+#vbTretmani{
+    -fx-padding: 0px 50px 0px 50px;
+}
+#loginBtn{
+    -fx-font: bold italic 20pt \"Arial\";
+    -fx-effect: dropshadow( one-pass-box , black , 10 , 0.0 , 0 , 1);
+    -fx-text-fill: black;
+    -fx-border-radius: 50;
+    -fx-font-weight: bold;
+    -fx-font-size: 12pt;
+}
+#loginBtn:hover{
+    -fx-text-fill:white;
+    -fx-background-color: #ffb3cc;
+    -fx-font-weight: bold;
+}
+#bpAdmin, #bp{
+    -fx-background-color: #ffb3cc;
+}
+#lblLogin{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 25pt;
+    -fx-background-color: #ffb3cc;
+    -fx-padding: 2px 25px 2px 25px;
+}
+#lblUsername, #lblPassword{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+}
+/*Admin scena*/
+#btn{
+    -fx-font: bold italic 20pt \"Arial\";
+    -fx-effect: dropshadow( one-pass-box , black , 10 , 0.0 , 0 , 1);
+    -fx-text-fill: white;
+    -fx-background-color: #ff66a3;
+    -fx-border-radius: 50;
+    -fx-font-weight: bold;
+    -fx-font-size: 12pt;
+    -fx-pref-width: 200px;
+}
+#btn:hover{
+    -fx-text-fill:black;
+    -fx-background-color: #A9A9A9;
+    -fx-font-weight: bold;
+}
+#lblOpcije{
+    -fx-font-size: 24pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffb3cc;
+    -fx-background-color: #ff66a3;
+    -fx-padding: 5px 60px 5px 60px;
+}
+#btnLogOut{
+    -fx-effect: dropshadow( one-pass-box , black , 10 , 0.0 , 0 , 1);
+    -fx-text-fill: white;
+    -fx-background-color: #ff66a3;
+    -fx-font-size: 12pt;
+    -fx-border-radius: 50;
+    -fx-font-weight: bold;
+}
+#btnLogOut:hover{
+    -fx-text-fill: black;
+    -fx-background-color: #A9A9A9;
+    -fx-font-weight: bold;
+}
+/*NovaUsluga, NoviRadnik, NoviTretman*/
+#lblIme, #lblPrezime, #lblNaziv, #lblCena, #lblSpecijalnost, #lblSifra{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 13pt;
+}
+#vb{
+    -fx-background-color: #ff66a3;
+}
+#vbTretman{
+     -fx-background-color: #ff66a3;
+     -fx-padding: 0px 50px 0px 50px;
+}
+#btnDodaj, #btnDelete, #btnIzmeni, #btnNazad{
+    -fx-effect: dropshadow( one-pass-box , black , 10 , 0.0 , 0 , 1);
+    -fx-text-fill: white;
+    -fx-background-color:  #ffb3cc;
+    -fx-border-radius: 50;
+    -fx-font-weight: bold;
+    -fx-pref-width: 170px;
+    -fx-font-size: 12pt;
+}
+#btnDodaj:hover{
+    -fx-text-fill:black;
+    -fx-background-color: #A9A9A9;
+    -fx-font-weight: bold;
+
+}
+#btnDelete:hover{
+    -fx-text-fill: black;
+    -fx-background-color: #A9A9A9;
+    -fx-font-weight: bold;
+}
+#btnIzmeni:hover{
+    -fx-text-fill: black;
+    -fx-background-color: #A9A9A9;
+    -fx-font-weight: bold;
+}
+#btnNazad:hover{
+    -fx-text-fill: black;
+    -fx-background-color: #A9A9A9;
+    -fx-font-weight: bold;
+}
+#lblDodaj, #lblIzmeniKlijenta, #lblIzmeni{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 16pt;
+}
+#btnMain{
+    -fx-effect: dropshadow( one-pass-box , black , 10 , 0.0 , 0 , 1);
+    -fx-text-fill: white;
+    -fx-background-color:  #ffb3cc;
+    -fx-border-radius: 50;
+    -fx-font-weight: bold;
+    -fx-font-size: 12pt;
+}
+#btnMain:hover{
+    -fx-text-fill:black;
+    -fx-background-color: #A9A9A9;
+    -fx-font-weight: bold;
+}
+/*Radnik scene*/
+#btnZavrsi{
+    -fx-effect: dropshadow( one-pass-box , black , 10 , 0.0 , 0 , 1);
+    -fx-text-fill: white;
+    -fx-background-color: #ff66a3;
+    -fx-border-radius: 50;
+    -fx-font-weight: bold;
+    -fx-pref-width: 200px;
+    -fx-padding: 15px 60px 15px 60px;
+    -fx-pref-width: 250px;
+}
+#btnZavrsi:hover{
+    -fx-text-fill: black;
+    -fx-background-color: #A9A9A9;
+    -fx-font-weight: bold;
+}
+#bpRadnik{
+    -fx-background-color: #ffb3cc;
+}
+/*Tretman*/
+#btnPocniTretman, #btnTretmanUToku{
+    -fx-effect: dropshadow( one-pass-box , black , 10 , 0.0 , 0 , 1);
+    -fx-text-fill: white;
+    -fx-background-color: #ffb3cc;
+    -fx-border-radius: 50;
+    -fx-font-weight: bold;
+    -fx-pref-width: 200px;
+    -fx-padding: 5px 10px 5px 10px;
+    -fx-pref-width: 290px;
+    -fx-font-size: 12pt;
+}
+#btnPocniTretman:hover{
+    -fx-text-fill: black;
+    -fx-background-color: #A9A9A9;
+    -fx-font-weight: bold;
+}
+#btnTretmanUToku:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #A9A9A9;
+    -fx-font-weight: bold;
+}
+#lblTretman{
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+#hbTop{
+    -fx-padding: 2px 30px 0px 0px;    
+}
